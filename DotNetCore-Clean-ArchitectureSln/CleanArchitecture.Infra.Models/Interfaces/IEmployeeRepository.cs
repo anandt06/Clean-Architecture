@@ -11,6 +11,6 @@ namespace CleanArchitecture.Domain.Interfaces
     {
         Task SaveEmployee(Employee employee);
         Task DeleteEmployee(int id);
-        Task<IEnumerable<Employee>> GetAllEmployees();
+        Task<IList<Employee>> GetAllEmployees();
     }
 }

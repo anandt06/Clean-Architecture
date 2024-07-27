@@ -1,15 +1,12 @@
-﻿using CleanArchitecture.Application.ViewModels;
-using System;
+﻿using CleanArchitecture.Domain.Models;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CleanArchitecture.Application.Interfaces
 {
     public interface IEmployeeService
     {
-        EmployeeViewModel GetAllEmployees();
+        public Task<IList<Employee>> GetAllEmployees();
 
     }
 }

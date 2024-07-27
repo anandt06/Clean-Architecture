@@ -12,26 +12,26 @@ namespace CleanArchitecture.Infra.Data.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        private EmployeeDbContext dbContext;
+        private EmployeeDbContext _dbContext;
         public EmployeeRepository(EmployeeDbContext employeeDbContext)
         {
-            dbContext = employeeDbContext;
+            _dbContext = employeeDbContext;
         }
         public async Task DeleteEmployee(int id)
         {
-            Employee employee = await dbContext.Employees.SingleOrDefaultAsync(x => x.Id == id);
-            dbContext.Employees.Remove(employee);
+            Employee employee = await _dbContext.Employees.SingleOrDefaultAsync(x => x.Id == id);
+            _dbContext.Employees.Remove(employee);
         }
 
-        public async Task<IEnumerable<Employee>> GetAllEmployees()
+        public async Task<IList<Employee>> GetAllEmployees()
         {
-            return await dbContext.Employees.ToListAsync();
+            return await _dbContext.Employees.ToListAsync();
         }
 
         public async Task SaveEmployee(Employee employee)
         {
-            dbContext.Employees.Add(employee);
-            await dbContext.SaveChangesAsync();
+            _dbContext.Employees.Add(employee);
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

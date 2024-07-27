@@ -1,12 +1,7 @@
 ﻿using CleanArchitecture.Application.Interfaces;
-using CleanArchitecture.Application.ViewModels;
-using CoreCleanArchitecture.Web.Models;
+using CleanArchitecture.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace CoreCleanArchitecture.Web.Controllers
@@ -19,20 +14,11 @@ namespace CoreCleanArchitecture.Web.Controllers
             _employeeService = employeeService;
         }
 
-        // GET: /<controller>/
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            //Task<EmployeeViewModel> model = _employeeService.GetAllEmployees();
+            IList<Employee> employees = await _employeeService.GetAllEmployees();
 
-            EmployeeViewModel model = _employeeService.GetAllEmployees();
-
-            return View(model);
+            return View(employees);
         }
-
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
     }
 }
