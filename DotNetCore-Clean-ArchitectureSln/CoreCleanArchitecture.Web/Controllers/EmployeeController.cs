@@ -1,4 +1,4 @@
-﻿using CleanArchitecture.Application.Interfaces;
+﻿using CleanArchitecture.Application.Interfaces.Services;
 using CleanArchitecture.Domain.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;

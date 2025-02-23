@@ -12,7 +12,7 @@ namespace CleanArchitecture.Infra.Data.Repository
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        private EmployeeDbContext _dbContext;
+        private readonly EmployeeDbContext _dbContext;
         public EmployeeRepository(EmployeeDbContext employeeDbContext)
         {
             _dbContext = employeeDbContext;
