@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/DotNetCore-Clean-ArchitectureSln/.vs/DotNetCore-Clean-ArchitectureSln
+/DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Application/obj
+/DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.Data/obj
+/DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.Models/obj
+/DotNetCore-Clean-ArchitectureSln/CoreCleanArchitecture.Web/obj
+/DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.IoC/obj
