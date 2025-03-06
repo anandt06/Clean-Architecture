@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Application.Interfaces.Services
+namespace CleanArchitecture.Application.Interfaces
 {
     public interface IEmployeeService
     {

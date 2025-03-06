@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using CleanArchitecture.Application.Interfaces.Services;
+using CleanArchitecture.Application.Interfaces;
 using CleanArchitecture.Domain.Interfaces;
 using CleanArchitecture.Domain.Models;
 
