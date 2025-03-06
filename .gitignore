@@ -3,13 +3,16 @@
 ################################################################################
 
 /DotNetCore-Clean-ArchitectureSln/.vs/DotNetCore-Clean-ArchitectureSln
+/DotNetCore-Clean-ArchitectureSln/.vs/ProjectEvaluation
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Application/obj
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.Data/obj
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.Models/obj
 /DotNetCore-Clean-ArchitectureSln/CoreCleanArchitecture.Web/obj
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.IoC/obj
-/DotNetCore-Clean-ArchitectureSln/.vs/ProjectEvaluation
+/DotNetCore-Clean-ArchitectureSln/CoreCleanArchitecture.Web/obj
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Application/bin/Debug/net6.0
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.Data/bin/Debug/net6.0
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.IoC/bin/Debug/net6.0
 /DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.Models/bin/Debug/net6.0
+/DotNetCore-Clean-ArchitectureSln/CleanArchitecture.Infra.Models/bin/Debug/net6.0
+/DotNetCore-Clean-ArchitectureSln/CoreCleanArchitecture.Web/bin/Debug/net6.0

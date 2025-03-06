@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArchitecture.UI.MVC", "CoreCleanArchitecture.UI.MVC", "{239589BA-6423-4FE5-8A31-FB26977AF066}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.UI.MVC", "CleanArchitecture.UI.MVC", "{239589BA-6423-4FE5-8A31-FB26977AF066}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArchitecture.Application", "CoreCleanArchitecture.Application", "{B80641BA-535B-40EB-A5A7-32EB90DD5510}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Application", "CleanArchitecture.Application", "{B80641BA-535B-40EB-A5A7-32EB90DD5510}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArchitecture.Domain", "CoreCleanArchitecture.Domain", "{E016FA24-7E85-4F96-96C3-0351E9A44902}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Domain", "CleanArchitecture.Domain", "{E016FA24-7E85-4F96-96C3-0351E9A44902}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArchitecture.Infrastructure.Data", "CoreCleanArchitecture.Infrastructure.Data", "{7F4FB09E-7B71-4E6A-82F9-B854B8F054DE}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Infrastructure.Data", "CleanArchitecture.Infrastructure.Data", "{7F4FB09E-7B71-4E6A-82F9-B854B8F054DE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CoreCleanArchitecture.Infrastructure.Ioc", "CoreCleanArchitecture.Infrastructure.Ioc", "{0038535F-548C-4969-BB65-4C32C9124B8B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CleanArchitecture.Infrastructure.Ioc", "CleanArchitecture.Infrastructure.Ioc", "{0038535F-548C-4969-BB65-4C32C9124B8B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreCleanArchitecture.Web", "CoreCleanArchitecture.Web\CoreCleanArchitecture.Web.csproj", "{9920456C-F982-4046-A688-9C4191C6D227}"
 EndProject
